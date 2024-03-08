@@ -26,7 +26,7 @@ export default async function page() {
     
     return (
         <div className="flex max-w-6xl mx-auto flex-wrap gap-4 py-[100px] items-center justify-center">
-            {recipes?.map((recipe) => <RecipeCard recipe={recipe} />)}
+            {recipes?.map((recipe) => <RecipeCard key={recipe.id} recipe={recipe} />)}
         </div>
     )
 }
