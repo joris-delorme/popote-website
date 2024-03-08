@@ -6,14 +6,14 @@ export async function getRecipes(page: number) {
     const supabase = createSupabaseServerClient()
 
     return await supabase.from("recipes")
-        .select(`id, created_at, image_url, title, caption, public,
+        .select(`id, created_at, image_url, title, caption, isPublic,
             user:profiles!public_recipes_user_id_fkey(
                 id,
                 username,
                 avatar_url
             )
         `)
-        .eq("public", "TRUE")
+        .eq("isPublic", "TRUE")
         .range(0, 20)
 }
 

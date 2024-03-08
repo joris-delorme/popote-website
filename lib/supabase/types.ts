@@ -112,8 +112,9 @@ export type Database = {
           created_at: string
           id: string
           image_url: string
+          isPublic: boolean
           language: string
-          public: boolean
+          low_image_url: string
           title: string
           updated_at: string | null
           user_id: string
@@ -123,8 +124,9 @@ export type Database = {
           created_at?: string
           id?: string
           image_url: string
+          isPublic?: boolean
           language: string
-          public?: boolean
+          low_image_url?: string
           title: string
           updated_at?: string | null
           user_id: string
@@ -134,8 +136,9 @@ export type Database = {
           created_at?: string
           id?: string
           image_url?: string
+          isPublic?: boolean
           language?: string
-          public?: boolean
+          low_image_url?: string
           title?: string
           updated_at?: string | null
           user_id?: string
