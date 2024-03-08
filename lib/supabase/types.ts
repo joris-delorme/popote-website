@@ -113,6 +113,7 @@ export type Database = {
           id: string
           image_url: string
           language: string
+          public: boolean
           title: string
           updated_at: string | null
           user_id: string
@@ -123,6 +124,7 @@ export type Database = {
           id?: string
           image_url: string
           language: string
+          public?: boolean
           title: string
           updated_at?: string | null
           user_id: string
@@ -133,6 +135,7 @@ export type Database = {
           id?: string
           image_url?: string
           language?: string
+          public?: boolean
           title?: string
           updated_at?: string | null
           user_id?: string
@@ -142,7 +145,7 @@ export type Database = {
             foreignKeyName: "public_recipes_user_id_fkey"
             columns: ["user_id"]
             isOneToOne: false
-            referencedRelation: "users"
+            referencedRelation: "profiles"
             referencedColumns: ["id"]
           }
         ]

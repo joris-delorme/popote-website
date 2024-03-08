@@ -4,6 +4,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { Analytics } from "@vercel/analytics/react"
+import Navbar from "@/components/navbar";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -69,6 +70,7 @@ export default function RootLayout({
       <body className={`${playfair.variable} ${inter.variable} font-sans`}>
         <Analytics />
         <Toaster richColors={true} />
+        <Navbar />
         {children}
       </body>
     </html>

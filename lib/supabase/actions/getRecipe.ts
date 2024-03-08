@@ -6,8 +6,15 @@ export async function getRecipes(page: number) {
     const supabase = createSupabaseServerClient()
 
     return await supabase.from("recipes")
-        .select("*, ingredients!inner(*), steps!inner(*)")
-        .range(0,20)
+        .select(`id, created_at, image_url, title, caption, public,
+            user:profiles!public_recipes_user_id_fkey(
+                id,
+                username,
+                avatar_url
+            )
+        `)
+        .eq("public", "TRUE")
+        .range(0, 20)
 }
 
 export async function getRecipe(id: String) {

@@ -2,6 +2,7 @@ import { FigmaSquircle } from "@/components/ui/figma-squircle"
 import { Separator } from "@/components/ui/separator"
 import { getRecipe, getRecipeMetadata, getUserRecipe } from "@/lib/supabase/actions/getRecipe"
 import { formatDate } from "@/utils/format-date"
+import { UserCircle2 } from "lucide-react"
 import { Metadata, ResolvingMetadata } from "next"
 import Image from "next/image"
 import { notFound, redirect } from "next/navigation"
@@ -51,8 +52,8 @@ export default async function page({ params }: { params: { id: string } }) {
 
     return (
         <>
-            <div className="mb-4 gap-2 flex">
-                <Image className="rounded-full" src={recipe.image_url} alt={recipe.title} width={50} height={50} />
+            <div className="mb-4 gap-2 flex items-center">
+                {author?.avatar_url ? <Image className="rounded-full" src={author.avatar_url} alt={recipe.title} width={50} height={50} /> : <UserCircle2  className="text-muted-foreground w-[50px] h-[50px]" />}
                 <div className="">
                     <p className="font-semibold">{author?.username || "Joris Delorme"}</p>
                     <p className="text-sm text-muted-foreground">{formatDate(new Date(recipe.created_at))}</p>
