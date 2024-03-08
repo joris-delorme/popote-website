@@ -30,7 +30,7 @@ export async function generateMetadata(
         title: recipe.title,
         description: recipe.caption,
         openGraph: {
-            images: [recipe.image_url, ...previousImages],
+            images: [recipe.low_image_url, ...previousImages],
         },
     }
 }
