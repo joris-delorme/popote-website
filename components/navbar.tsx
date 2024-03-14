@@ -20,7 +20,7 @@ export default function Navbar() {
             <nav>
                 <div className="h-[64px] px-10 flex w-full justify-between items-center fixed top-0 left-0 bg-background/80 backdrop-blur-xl z-[999] border-b">
                     <Link href='/' className="flex items-center gap-2">
-                        <span className="font-bold font-display text-2xl">Feedbacks</span>
+                        <span className="font-black font-display text-2xl font-serif">Popote</span>
                     </Link>
                     <ul className="gap-10 md:flex text-sm hidden items-center">
                         <li className={linkCN}><Link href='/recipes'>Recettes</Link></li>

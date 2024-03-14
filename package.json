@@ -10,10 +10,13 @@
     "generate:types": "npx supabase gen types typescript --project-id rmtdjrfumsiymxjnoahb --schema public > lib/supabase/types.ts"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
+    "@react-email/components": "^0.0.15",
     "@supabase/ssr": "^0.1.0",
+    "@tsparticles/confetti": "^3.3.0",
     "@vercel/analytics": "^1.2.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -22,6 +25,7 @@
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
+    "resend": "^3.2.0",
     "sonner": "^1.4.3",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"

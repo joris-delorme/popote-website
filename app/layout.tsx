@@ -69,7 +69,7 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`${playfair.variable} ${inter.variable} font-sans`}>
         <Analytics />
-        <Toaster richColors={true} />
+        <Toaster richColors={true} position="top-center" closeButton={true} />
         <Navbar />
         {children}
       </body>
