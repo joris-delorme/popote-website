@@ -31,8 +31,8 @@ export default function NewsletterForm() {
         setSuccess(false)
 
         try {
-            //const { error } = await sendConfirmEmail(informations.email, informations.name)
-            //if (error) throw new Error(error.message)
+            const { error } = await sendConfirmEmail(informations.email, informations.name)
+            if (error) throw new Error(error.message)
             toast.success('Votre inscription à été prise en compte.', { description: `Un email a été envoyé à ${informations.email}.` })
             setShow(false)
             setSuccess(true)
