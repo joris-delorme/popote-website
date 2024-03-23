@@ -17,8 +17,8 @@ export const sendConfirmEmail = async (email: string, name: string) => {
     if (error) throw new Error(error.message)
 
     console.log(data);
-    
-    if (data?.data.find((contact) => contact.email === email)) throw new Error('Cette email est déjà inscrit.')
+
+    if (data?.data.find((contact) => contact.email === email)) throw new Error('Cet email est déjà inscrit.')
 
     return await resend.emails.send({
         from: 'hello@popote.app',
