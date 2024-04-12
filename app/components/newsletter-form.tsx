@@ -33,12 +33,12 @@ export default function NewsletterForm() {
         try {
             const { error } = await sendConfirmEmail(informations.email, informations.name)
             if (error) throw new Error(error.message)
-            toast.success('Votre inscription à été prise en compte.', { description: `Un email a été envoyé à ${informations.email}.` })
+            toast.success('Votre inscription a été prise en compte.', { description: `Un email a été envoyé à ${informations.email}.` })
             setShow(false)
             setSuccess(true)
             setInformations({ email: "", name: "" })
         } catch (error) {
-            toast.error('Une erreur est survenue.', { description: (error as Error).message })
+            toast.error('Une erreur est survenue :-/', { description: (error as Error).message })
         }
         setIsLoading(false)
     }
