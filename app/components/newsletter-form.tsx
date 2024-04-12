@@ -28,7 +28,7 @@ export default function NewsletterForm() {
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
-        setSuccess(false)
+        setSuccess(true)
 
         try {
             const { error } = await sendConfirmEmail(informations.email, informations.name)

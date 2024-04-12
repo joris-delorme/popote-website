@@ -1,6 +1,7 @@
 'use server'
 
 import { ConfirmEmail } from "@/components/emails/confirmation";
+import { randomUUID } from "crypto";
 import { Resend } from "resend";
 
 
@@ -21,7 +22,10 @@ export const sendConfirmEmail = async (email: string, name: string) => {
     if (data?.data.find((contact) => contact.email === email)) throw new Error('Cette email est déjà inscrit.')
 
     return await resend.emails.send({
-        from: 'hello@popote.app',
+        from: 'Popote <hello@popote.app>',
+        headers: {
+            'X-Entity-Ref-ID': randomUUID(),
+        },
         to: email,
         subject: `Encore une chose ${name}...`,
         react: <ConfirmEmail name={name} email={email} />

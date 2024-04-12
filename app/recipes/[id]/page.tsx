@@ -53,7 +53,7 @@ export default async function page({ params }: { params: { id: string } }) {
     return (
         <>
             <div className="mb-4 gap-2 flex items-center">
-                {author?.avatar_url ? <Image className="rounded-full" src={author.avatar_url} alt={recipe.title} width={50} height={50} /> : <UserCircle2  className="text-muted-foreground w-[50px] h-[50px]" />}
+                {author?.avatar_url ? <Image className="rounded-full" src={"https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/"+author.avatar_url} alt={recipe.title} width={50} height={50} /> : <UserCircle2  className="text-muted-foreground w-[50px] h-[50px]" />}
                 <div className="">
                     <p className="font-semibold">{author?.username || "Joris Delorme"}</p>
                     <p className="text-sm text-muted-foreground">{formatDate(new Date(recipe.created_at))}</p>
