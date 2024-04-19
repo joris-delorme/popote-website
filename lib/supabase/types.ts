@@ -48,21 +48,21 @@ export type Database = {
           name: string
           quantity: string
           recipe_id: string
-          units: string
+          unit: string
         }
         Insert: {
           id?: string
           name: string
           quantity: string
           recipe_id: string
-          units?: string
+          unit: string
         }
         Update: {
           id?: string
           name?: string
           quantity?: string
           recipe_id?: string
-          units?: string
+          unit?: string
         }
         Relationships: [
           {
@@ -181,6 +181,33 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      support: {
+        Row: {
+          created_at: string
+          email: string
+          id: string
+          message: string
+          nom: string
+          prenom: string
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          id?: string
+          message: string
+          nom: string
+          prenom: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          id?: string
+          message?: string
+          nom?: string
+          prenom?: string
+        }
+        Relationships: []
       }
       users: {
         Row: {
