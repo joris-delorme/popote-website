@@ -20,7 +20,9 @@ export function ShareButton({ className, text }: { className?: string, text?: st
                 url: window.location.href
             })
         } catch (err) {
-            toast.error("Impossible de partager cette page...")
+            if ((err as Error).message.includes("navigator.share is not a function")) {
+                toast.error("Votre navigateur ne supporte pas le partage.")
+            }
         }
     }
 
