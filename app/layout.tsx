@@ -5,6 +5,7 @@ import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { Analytics } from "@vercel/analytics/react"
 import Navbar from "@/components/navbar";
+import { Suspense } from "react";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -69,7 +70,9 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`${playfair.variable} ${inter.variable} font-sans`}>
         <Analytics />
-        <Toaster richColors={true} position="top-center" closeButton={true} />
+        <Suspense>
+            <Toaster richColors={true} position="top-center" />
+        </Suspense>
         <Navbar />
         {children}
       </body>
