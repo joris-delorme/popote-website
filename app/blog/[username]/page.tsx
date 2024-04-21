@@ -12,6 +12,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { ShareButton } from "./share-button";
 import { Metadata, ResolvingMetadata } from "next";
+import { Icons } from "@/components/icons";
 
 export async function generateMetadata(
     { params }: { params: { username: string } },
@@ -108,8 +109,9 @@ export default async function page({ params }: { params: { username: string } })
     return (
         <section className="w-full pb-20">
             <div className="mt-[150px] w-full flex flex-col justify-center relative z-10 items-center">
-                <div className="h-[200px] w-[200px] border-white border-8 rounded-full overflow-hidden">
-                    {user.avatar_url && <Image src={avatarStorageUrl + user.avatar_url} alt={user.username ?? "Avatar"} width={300} height={300} className="object-cover h-full w-full" />}
+                <div className="h-[200px] flex items-center justify-center w-[200px] bg-muted border-white border-8 rounded-full overflow-hidden">
+                    {user.avatar_url ? <Image src={avatarStorageUrl + user.avatar_url} alt={user.username ?? "Avatar"} width={300} height={300} className="object-cover h-full w-full" />
+                    : <Icons.logo2 className="text-muted-foreground h-28 w-28" />}
                 </div>
                 <div className="text-3xl mt-4 font-black font-serif">{user.full_name}</div>
                 <p className="mt-2 text-muted-foreground">@{user.username} • {user.recipes.length + " Recettes"}</p>

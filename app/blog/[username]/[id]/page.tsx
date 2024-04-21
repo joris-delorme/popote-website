@@ -8,6 +8,7 @@ import Image from "next/image"
 import { notFound, redirect } from "next/navigation"
 import { avatarStorageUrl } from "@/utils/constants"
 import { ShareButton } from "../share-button"
+import Link from "next/link"
 
 export async function generateMetadata(
     { params }: { params: { id: string } },
@@ -37,7 +38,7 @@ export async function generateMetadata(
     }
 }
 
-export default async function page({ params }: { params: { id: string } }) {
+export default async function page({ params }: { params: { username: string, id: string } }) {
 
     const { data: recipe, error } = await getRecipe(params.id)
 
@@ -54,7 +55,7 @@ export default async function page({ params }: { params: { id: string } }) {
 
     return (
         <>
-            <div className="mb-4 gap-2 flex items-center">
+            <Link href={`/blog/${params.username}`} className="mb-4 gap-2 flex items-center">
                 <div className="h-[50px] w-[50px]">
                     {author?.avatar_url ? <Image className="rounded-full object-cover h-full w-full" src={avatarStorageUrl + author.avatar_url} alt={recipe.title} width={50} height={50} /> : <UserCircle2 className="text-muted-foreground w-[50px] h-[50px]" />}
                 </div>
@@ -62,7 +63,7 @@ export default async function page({ params }: { params: { id: string } }) {
                     <p className="font-semibold">{author?.username || "Joris Delorme"}</p>
                     <p className="text-sm text-muted-foreground">{formatDate(new Date(recipe.created_at))}</p>
                 </div>
-            </div>
+            </Link>
             <FigmaSquircle>
                 <Image className="object-cover w-full h-[400px] mb-4" src={recipe.image_url} alt={recipe.title} width={400} height={400} />
             </FigmaSquircle>

@@ -12,10 +12,12 @@ export const metadata = {
 }
 
 const RecipeCard = ({ recipe }: { recipe: RecipeUser }) => (
-    <Link href={`/recipes/${recipe.id}`} className="hover:drop-shadow-[0_10px_30px_rgba(0,0,0,0.25)] hover:scale-105 hover:z-10 drop-shadow-[0_10px_10px_rgba(0,0,0,0.15)] transition-all duration-500 w-[305px] h-[480px]">
+    <Link href={`/blog/${recipe.user?.username}/${recipe.id}`} className="hover:drop-shadow-[0_10px_30px_rgba(0,0,0,0.25)] hover:scale-105 hover:z-10 drop-shadow-[0_10px_10px_rgba(0,0,0,0.15)] transition-all duration-500 w-[305px] h-[480px]">
         <FigmaSquircle className="bg-background w-full h-full p-6">
             {recipe.user && <div className="mb-4 gap-2 flex items-center">
-                {recipe.user.avatar_url ? <Image className="rounded-full" src={avatarStorageUrl + recipe.user.avatar_url} alt={recipe.title} width={35} height={35} /> : <UserCircle2  className="text-muted-foreground h-8 w-8" />}
+                <div className="h-[35px] w-[35px]">
+                    {recipe.user.avatar_url ? <Image className="rounded-full w-full h-full object-cover" src={avatarStorageUrl + recipe.user.avatar_url} alt={recipe.title} width={35} height={35} /> : <UserCircle2  className="text-muted-foreground h-8 w-8" />}
+                </div>
                 <div className="">
                     <p className="font-semibold text-sm">{recipe.user.username || "Joris Delorme"}</p>
                     <p className="text-xs text-muted-foreground">{formatDate(new Date(recipe.created_at))}</p>

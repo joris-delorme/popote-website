@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FigmaSquircle } from "@/components/ui/figma-squircle"
 import MaxWidthWrapper from "./max-width-wrapper";
+import { buttonVariants } from "./ui/button";
 
 const linkCN = "hover:opacity-50 transition-all"
 
@@ -19,15 +20,16 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="py-4 drop-shadow-2xl flex w-full justify-between items-center fixed top-0 left-0 z-[999]">
+            <nav className="py-4 drop-shadow-[0_0_20px_rgba(0,0,0,0.15)] flex w-full justify-between items-center fixed top-0 left-0 z-[999]">
                 <MaxWidthWrapper>
                     <FigmaSquircle cornerRadius={15} className="h-[64px] px-4 md:px-8 flex w-full justify-between items-center bg-background">
                         <Link href='/' className="flex items-center gap-2 md:pl-0 pl-4">
                             <span className="font-black -mt-1 text-2xl font-serif">Popote</span>
                         </Link>
-                        <ul className="gap-10 md:flex text-sm hidden items-center">
-                            <li className={linkCN}><Link href='/recipes'>Recettes</Link></li>
-                            <li className={linkCN}><Link href='/price'>Prix</Link></li>
+                        <ul className="md:flex text-sm hidden items-center">
+                            <li className={linkCN}><Link className={buttonVariants({ variant: "ghost" })} href='/recipes'>recettes</Link></li>
+                            <li className={linkCN}><Link className={buttonVariants({ variant: "ghost" })} href='/app'>application</Link></li>
+                            <li className={linkCN}><Link className={buttonVariants({ variant: "ghost" })} href='/support'>contact</Link></li>
                         </ul>
 
                         <button className="relative group md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
