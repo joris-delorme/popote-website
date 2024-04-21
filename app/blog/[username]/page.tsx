@@ -56,8 +56,8 @@ const FullCard = ({ username, recipe }: { username: string, recipe?: Tables<"rec
     <>
         {recipe && <article className="grid md:grid-cols-2 grid-cols-1 gap-4 lg:gap-8 group mt-20">
                 <Link href={`/blog/${username}/${recipe.id}`} className="col-span-1">
-                    <FigmaSquircle className="aspect-square md:aspect-twobyone">
-                        <Image src={recipe.image_url} quality={100} alt={username ?? "Avatar"} width={2000} height={1000} className="object-cover w-full h-full scale-100 group-hover:scale-105 duration-500 object-center" />
+                    <FigmaSquircle className="w-full h-full relative flex items-center justify-center">
+                        <Image src={recipe.image_url} quality={100} alt={username ?? "Avatar"} width={2000} height={1000} className="object-cover w-full h-full scale-100 group-hover:scale-105 duration-500 object-center absolute" />
                     </FigmaSquircle>
                 </Link>
                 <div className="col-span-1 py-4 lg:py-4 md:py-0 flex flex-col gap-4 underline-offset-4">
@@ -83,7 +83,7 @@ const Card = ({ username, recipe }: { username: string, recipe: Tables<"recipes"
         <div className="flex flex-col gap-3">
             <Badge variant="secondary" className="w-fit">{(new Date(recipe.created_at)).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</Badge>
             <header className="w-full">
-                <h2 className="text-2xl font-serif font-black w-full">
+                <h2 className="text-2xl font-serif line-clamp-2 font-black w-full">
                     <Link className="w-full group-hover:underline block" href={`/blog/${username}/${recipe.id}`}>{recipe.title}</Link>
                 </h2>
             </header>
