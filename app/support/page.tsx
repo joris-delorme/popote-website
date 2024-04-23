@@ -19,6 +19,7 @@ import { useState } from 'react'
 import { Loader } from '@/components/ui/loader'
 import { toast } from 'sonner'
 import { sendSupportRequest } from './actions'
+import MaxWidthWrapper from '@/components/max-width-wrapper'
 
 const formSchema = z.object({
     nom: z.string().min(3, "Le nom doit contenir au moins 3 caractères"),
@@ -53,7 +54,7 @@ export default function Page() {
     }
 
     return (
-        <section className="min-h-[100svh] w-full flex flex-col items-center justify-center">
+        <MaxWidthWrapper className="min-h-[100svh] w-full flex flex-col items-center mt-20 justify-center">
             <h1 className="text-3xl font-black">Support</h1>
             <p className="text-muted-foreground text-center max-w-md mb-10 mt-4">Vous avez une question ou un problème ? Remplissez le formulaire ci-dessous pour nous contacter.</p>
             <Form {...form}>
@@ -115,6 +116,6 @@ export default function Page() {
                     <Button disabled={isLoading} type="submit" className='gap-2'>{isLoading && <Loader />}Envoyer</Button>
                 </form>
             </Form>
-        </section>
+        </MaxWidthWrapper>
     )
 }

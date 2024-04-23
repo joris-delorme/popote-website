@@ -46,7 +46,7 @@ const Card = ({ recipe }: { recipe: RecipeUser }) => (
                 <p className="text-xs text-muted-foreground">{formatDate(new Date(recipe.created_at))}</p>
             </div>
         </div>}
-        <Link href={`/blog/${recipe.user?.username}/${recipe.id}`}>
+        <Link href={`/blog/${recipe.user?.username}/${recipe.id}`} className="bg-muted rounded-3xl">
             <FigmaSquircle className="aspect-square">
                 <Image src={recipe.low_image_url != "" ? recipe.low_image_url ?? recipe.image_url : recipe.image_url} quality={100} alt={recipe.title} width={2000} height={1000} className="object-cover w-full h-full scale-100 group-hover:scale-105 duration-500 object-center" />
             </FigmaSquircle>

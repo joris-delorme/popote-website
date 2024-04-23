@@ -56,7 +56,7 @@ const FullCard = ({ username, recipe }: { username: string, recipe?: Tables<"rec
     <>
         {recipe && <article className="grid md:grid-cols-2 grid-cols-1 gap-4 lg:gap-8 group mt-20">
                 <Link href={`/blog/${username}/${recipe.id}`} className="col-span-1">
-                    <FigmaSquircle className="w-full h-full relative flex items-center justify-center">
+                    <FigmaSquircle className="w-full h-full relative md:aspect-auto aspect-square flex items-center justify-center">
                         <Image src={recipe.image_url} quality={100} alt={username ?? "Avatar"} width={2000} height={1000} className="object-cover w-full h-full scale-100 group-hover:scale-105 duration-500 object-center absolute" />
                     </FigmaSquircle>
                 </Link>
@@ -75,7 +75,7 @@ const FullCard = ({ username, recipe }: { username: string, recipe?: Tables<"rec
 
 const Card = ({ username, recipe }: { username: string, recipe: Tables<"recipes"> }) => (
     <article className="flex flex-col gap-4 group">
-        <Link href={`/blog/${username}/${recipe.id}`}>
+        <Link href={`/blog/${username}/${recipe.id}`} className="bg-muted rounded-3xl">
             <FigmaSquircle className="aspect-square">
                 <Image src={recipe.image_url} quality={100} alt={recipe.title} width={2000} height={1000} className="object-cover w-full h-full scale-100 group-hover:scale-105 duration-500 object-center" />
             </FigmaSquircle>
