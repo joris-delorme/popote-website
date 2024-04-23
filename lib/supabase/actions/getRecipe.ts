@@ -6,7 +6,7 @@ export async function getRecipes(page: number) {
     const supabase = createSupabaseServerClient()
 
     return await supabase.from("recipes")
-        .select(`id, created_at, image_url, title, caption, is_public,
+        .select(`id, created_at, image_url, title, caption, is_public, low_image_url,
             user:users!public_recipes_user_id_fkey(
                 id,
                 username,
@@ -14,6 +14,7 @@ export async function getRecipes(page: number) {
             )
         `)
         .eq("is_public", "TRUE")
+        .order('created_at', { ascending: false })
         .range(0, 20)
 }
 

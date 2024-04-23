@@ -26,15 +26,15 @@ const useResponsiveDimensions = (ref: RefObject<HTMLElement>) => {
 }
 
 
-export function FigmaSquircle({ className="", children }: { className?: string, children: ReactNode }) {
+export function FigmaSquircle({ cornerRadius=30, cornerSmoothing=1, className="", children }: { cornerRadius?: number, cornerSmoothing?: number, className?: string, children: ReactNode }) {
     const ref = useRef<HTMLDivElement>(null)
     const dimensions = useResponsiveDimensions(ref)
     const svgPath = useMemo(() => getSvgPath({
         width: dimensions.width,
         height: dimensions.height,
-        cornerRadius: 30,
-        cornerSmoothing: 1
-    }), [dimensions.width, dimensions.height])
+        cornerRadius: cornerRadius,
+        cornerSmoothing: cornerSmoothing
+    }), [dimensions.width, dimensions.height, cornerRadius, cornerSmoothing])
 
     return (
         <div className={className} style={{clipPath: `path('${svgPath}')`}} ref={ref}>{children}</div>
