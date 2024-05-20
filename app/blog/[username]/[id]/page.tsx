@@ -60,21 +60,21 @@ export default async function page({ params }: { params: { username: string, id:
                     {author?.avatar_url ? <Image className="rounded-full object-cover h-full w-full" src={avatarStorageUrl + author.avatar_url} alt={recipe.title} width={50} height={50} /> : <UserCircle2 className="text-muted-foreground w-[50px] h-[50px]" />}
                 </div>
                 <div className="">
-                    <p className="font-semibold" itemprop="author">{author?.username || "Joris Delorme"}</p>
-                    <p className="text-sm text-muted-foreground" itemprop="datePublished">{formatDate(new Date(recipe.created_at))}</p>
+                    <p className="font-semibold" itemProp="author">{author?.username || "Joris Delorme"}</p>
+                    <p className="text-sm text-muted-foreground" itemProp="datePublished">{formatDate(new Date(recipe.created_at))}</p>
                 </div>
             </Link>
             <FigmaSquircle>
-                <Image className="object-cover w-full h-[400px] mb-4" src={recipe.image_url} alt={recipe.title} width={400} height={400} itemprop="image" />
+                <Image className="object-cover w-full h-[400px] mb-4" src={recipe.image_url} alt={recipe.title} width={400} height={400} itemProp="image" />
             </FigmaSquircle>
-            <div className="sm:text-lg text-base" itemscope itemtype="https://schema.org/Recipe">
-                <h1 className="font-black font-serif text-5xl" itemprop="name">{recipe.title}</h1>
-                <p className="text-muted-foreground mt-2 mb-10" itemprop="description">{recipe.caption}</p>
+            <div className="sm:text-lg text-base" itemScope itemType="https://schema.org/Recipe">
+                <h1 className="font-black font-serif text-5xl" itemProp="name">{recipe.title}</h1>
+                <p className="text-muted-foreground mt-2 mb-10" itemProp="description">{recipe.caption}</p>
                 <h2 className="font-black text-5xl font-serif mt-20 mb-10">Ingrédients</h2>
                 <fieldset className="space-y-3">
                     {
                         recipe.ingredients.map((ingredient, key) => (
-                            <label key={key} className="peer grid grid-cols-[auto_1fr] items-center gap-3 rounded-md hover:bg-slate-100" itemprop="recipeIngredient">
+                            <label key={key} className="peer grid grid-cols-[auto_1fr] items-center gap-3 rounded-md hover:bg-slate-100" itemProp="recipeIngredient">
                                 <input type="checkbox" className="peer size-3.5 appearance-none rounded-sm border border-slate-300 accent-black checked:appearance-auto" />
                                 <p className="flex gap-4 justify-between peer-checked:opacity-20 peer-checked:line-through">
                                     <span className="">{ingredient.name[0].toUpperCase() + ingredient.name.slice(1)}</span>
@@ -86,7 +86,7 @@ export default async function page({ params }: { params: { username: string, id:
                 </fieldset>
 
                 <h2 className="font-black text-5xl font-serif mt-20 mb-10">Étapes</h2>
-                <div className="grid gap-10" itemprop="recipeInstructions">
+                <div className="grid gap-10" itemProp="recipeInstructions">
                     {
                         recipe.steps.map((step, index) => (
                             <div key={index} className="grid gap-2">
