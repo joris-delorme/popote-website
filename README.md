@@ -37,7 +37,9 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 > You are using Node.js 18.14.2. For Next.js, Node.js version >= v18.17.0 is required.
 
-=> Installer `nvm` et mettre à jour NodeJS ! : `nvm install 18.17.0`
+1. Installer **nvm** : `brew install nvm`
+2. Activer la commande `nvm` : `source $(brew --prefix nvm)/nvm.sh`
+2. Mettre à jour NodeJS ! : `nvm install 18.17.0`
 
 ## Learn More
 
