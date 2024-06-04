@@ -67,7 +67,7 @@ export default async function page({ params }: { params: { username: string, id:
             <FigmaSquircle>
                 <Image className="object-cover w-full h-[400px] mb-4" src={recipe.image_url} alt={recipe.title} width={400} height={400} itemProp="image" />
             </FigmaSquircle>
-            <div className="sm:text-lg text-base" itemScope itemType="https://schema.org/Recipe">
+            <div className="sm:text-lg text-base">
                 <h1 className="font-black font-serif text-5xl" itemProp="name">{recipe.title}</h1>
                 <p className="text-muted-foreground mt-2 mb-10" itemProp="description">{recipe.caption}</p>
                 <h2 className="font-black text-5xl font-serif mt-20 mb-10">Ingrédients</h2>
