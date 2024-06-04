@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Popote",
-  description: "Un livre de recette sans fin, avec ce que vous avez sous la main.",
+  description: "Popote est une application IOS qui utilise la science et l'IA pour améliore votre bien-être quotidien en créant des recettes de cuisine qui s'adaptent à vos besoins.",
   url: "https://popote.app",
   ogImage: "https://popote.app/og.jpg",
   links: {
