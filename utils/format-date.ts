@@ -7,5 +7,5 @@ export function formatDate(date: Date): string {
 
     const formattedDate = formatter.format(date);
 
-    return `Créer le ${formattedDate}`;
+    return `Créée le ${formattedDate}`;
 }

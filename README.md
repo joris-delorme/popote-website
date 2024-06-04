@@ -1,6 +1,6 @@
 # Le site
 
--[ Version Dev](https://dev-popote-website.vercel.app)
+- [Version Dev](https://dev-popote-website.vercel.app)
 
 
 # La technique
@@ -8,6 +8,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+
+La première fois, faire un :
+
+	npm install
 
 First, run the development server:
 
@@ -26,6 +30,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+### Troobleshooting
+
+#### Après un `npm install` puis `npm run dev` :
+
+> You are using Node.js 18.14.2. For Next.js, Node.js version >= v18.17.0 is required.
+
+=> Installer `nvm` et mettre à jour NodeJS ! : `nvm install 18.17.0`
 
 ## Learn More
 
