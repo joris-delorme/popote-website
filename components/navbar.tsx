@@ -1,15 +1,19 @@
-'use client'
+"use client"
 
+import { Icons } from "@/components/icons";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { use, useEffect, useState } from "react";
-import { FigmaSquircle } from "@/components/ui/figma-squircle"
-import MaxWidthWrapper from "./max-width-wrapper";
-import { buttonVariants } from "./ui/button";
-import { MobileNavbar } from "./mobile-navbar";
 
-const linkCN = "hover:opacity-50 transition-all"
+import {
+    NavigationMenu,
+    NavigationMenuLink,
+    NavigationMenuList,
+} from "@/components/ui/navigation-menu"
+import MaxWidthWrapper from "@/components/max-width-wrapper";
+import { cva } from "class-variance-authority";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const navbarConfig = [
     {
@@ -26,73 +30,69 @@ const navbarConfig = [
     }
 ]
 
-export default function Navbar() {
+const navigationMenuTriggerStyle = cva(
+    "group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground text-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50"
+)
+
+export function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false)
-    const [squircleTrigger, setSquircleTrigger] = useState(false)
     const pathname = usePathname()
-
-    useEffect(() => {
-        if (!isOpen) {
-            setTimeout(() => {
-                setSquircleTrigger(old => !old)
-            }, 700)
-        } else {
-            setSquircleTrigger(old => !old)
-        }
-    }, [isOpen])
 
     useEffect(() => {
         setIsOpen(false)
     }, [pathname])
 
     return (
-        <>
-            <nav className="py-4 drop-shadow-[0_0_20px_rgba(0,0,0,0.15)] flex w-full justify-between items-center fixed top-0 left-0 z-[999]">
-                <MaxWidthWrapper>
-                    <FigmaSquircle trigger={squircleTrigger} cornerRadius={15} className={cn(isOpen ? "h-[95svh]" : "sm:h-[64px] h-[44px]", "")}>
-                        <div className={cn(isOpen ? "h-[95svh]" : "sm:h-[64px] h-[44px]", "px-4 sm:px-8 flex w-full py-[2px] overflow-hidden relative transition-all duration-700 justify-between rounded-2xl sm:items-center items-start bg-background")}>
-                            <div className="flex items-center justify-between w-full">
-                                <Link href='/' className="flex items-center gap-2 md:pl-0 pl-2 relative z-10">
-                                    <span className="font-black sm:-mt-1 sm:text-2xl text-xl font-serif">Popote</span>
-                                </Link>
-                                <ul className="sm:flex text-sm hidden items-center">
-                                    {
-                                        navbarConfig.map(({ href, label }, key) => (
-                                            <li key={key}>
-                                                <Link className={buttonVariants({ variant: "ghost" })} href={href}>{label}</Link>
-                                            </li>
-                                        ))
-                                    }
-                                </ul>
-                                <button className="relative group sm:hidden" onClick={() => setIsOpen(!isOpen)}>
-                                    <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[40px] h-[40px] transform transition-all ring-opacity-30 duration-200">
-                                        <div className="flex flex-col justify-between w-[26px] h-[17px] transform transition-all duration-300 origin-center overflow-hidden">
-                                            <div className={cn(isOpen && "translate-x-10", "bg-foreground h-[2px] w-8 transform transition-all duration-300 origin-left")}></div>
-                                            <div className={cn(isOpen && "translate-x-10", "bg-foreground h-[2px] w-8 rounded transform transition-all duration-300 delay-75")}></div>
-                                            <div className={cn(isOpen && "translate-x-10", "bg-foreground h-[2px] w-8 transform transition-all duration-300 origin-left delay-150")}></div>
+        <nav className={cn(pathname === "/" && "dark", 'fixed inset-x-0 top-0 z-30 w-full')}>
+            <MaxWidthWrapper className={cn(isOpen ? "h-[100svh]" : "sm:h-[100px] h-[75px]", "flex w-full justify-between transition-all sm:overflow-visible overflow-hidden ease-in-out duration-500 sm:items-center items-start fixed top-0 left-1/2 -translate-x-1/2 bg-background z-[999]")}>
+                    <div className="flex bg-background relative z-10 sm:h-[100px] h-[75px] justify-between w-full items-center">
+                        <Link
+                            href='/'
+                            className='flex z-40 group'
+                        >
+                            <Icons.logo className="sm:h-[54px] h-[46px] w-fit origin-bottom" />
+                        </Link>
 
-                                            <div className={cn("absolute items-center justify-between transform transition-all duration-500 top-1/2 -translate-x-10 flex w-0", isOpen && "translate-x-0 w-12")}>
-                                                <div className={cn("absolute bg-foreground h-[2px] w-6 transform transition-all duration-500 rotate-0 delay-300", isOpen && "rotate-45")}></div>
-                                                <div className={cn("absolute bg-foreground h-[2px] w-6 transform transition-all duration-500 -rotate-0 delay-300", isOpen && "-rotate-45")}></div>
-                                            </div>
-                                        </div>
+                        <NavigationMenu className="hidden sm:flex">
+                            <NavigationMenuList>
+                                {navbarConfig.map(({ href, label }, key) => (
+                                    <Link href={href} key={key} legacyBehavior passHref>
+                                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                            {label}
+                                        </NavigationMenuLink>
+                                    </Link>
+                                ))}
+                            </NavigationMenuList>
+                        </NavigationMenu >
+
+                        <button className="relative group sm:hidden" onClick={() => setIsOpen(!isOpen)}>
+                            <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[40px] h-[40px] transform transition-all ring-opacity-30 duration-200">
+                                <div className="flex flex-col justify-between w-[26px] h-[17px] transform transition-all duration-300 origin-center overflow-hidden">
+                                    <div className={cn(isOpen && "translate-x-10", "bg-foreground h-[2px] w-8 transform transition-all duration-300 origin-left")}></div>
+                                    <div className={cn(isOpen && "translate-x-10", "bg-foreground h-[2px] w-[18px] ml-auto rounded transform transition-all duration-300 delay-75")}></div>
+                                    <div className={cn(isOpen && "translate-x-10", "bg-foreground h-[2px] w-[20px] ml-auto transform transition-all duration-300 origin-left delay-150")}></div>
+
+                                    <div className={cn("absolute items-center justify-between transform transition-all duration-500 top-1/2 -translate-x-10 flex w-0", isOpen && "translate-x-0 w-12")}>
+                                        <div className={cn("absolute bg-foreground h-[2px] w-6 transform transition-all duration-500 rotate-0 delay-300", isOpen && "rotate-45")}></div>
+                                        <div className={cn("absolute bg-foreground h-[2px] w-6 transform transition-all duration-500 -rotate-0 delay-300", isOpen && "-rotate-45")}></div>
                                     </div>
-                                </button>
+                                </div>
                             </div>
-                            <ul className="absolute top-0 h-[90svh] pl-2 sm:hidden pb-10 flex gap-10 flex-col justify-end">
-                                {
-                                    navbarConfig.map(({ href, label }, key) => (
-                                        <li key={key}>
-                                            <Link className="text-3xl font-black" href={href}>{label}</Link>
-                                        </li>
-                                    ))
-                                }
+                        </button>
+                    </div>
+
+                    <div className={cn(!isOpen && "pointer-events-none", "absolute select-none top-0 h-[100svh] sm:hidden")}>
+                        <ScrollArea className="h-full">
+                        <ul className="h-full pl-2 pb-6 flex gap-6 flex-col justify-end">
+                                {navbarConfig.map(({ href, label }, key) => (
+                                    <li key={key}><Link className="text-2xl font-bold text-foreground" href={href}>{label}</Link></li>
+                                ))}
                             </ul>
-                        </div>
-                    </FigmaSquircle>
-                </MaxWidthWrapper>
-            </nav>
-        </>
+                        </ScrollArea>
+                    </div>
+            </MaxWidthWrapper>
+        </nav>
     )
 }
+

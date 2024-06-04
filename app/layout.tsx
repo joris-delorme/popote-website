@@ -4,7 +4,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { Analytics } from "@vercel/analytics/react"
-import Navbar from "@/components/navbar";
+import { Navbar } from "@/components/navbar";
 import { Suspense } from "react";
 
 const inter = Inter({ 
