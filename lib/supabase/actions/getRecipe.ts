@@ -6,7 +6,7 @@ export async function getRecipes(page: number) {
     const supabase = createSupabaseServerClient()
 
     return await supabase.from("recipes")
-        .select(`id, created_at, image_url, title, caption, is_public, low_image_url,
+        .select(`id, created_at, image_url, title, caption, is_public, slug, low_image_url,
             user:users!public_recipes_user_id_fkey(
                 id,
                 username,
@@ -18,21 +18,21 @@ export async function getRecipes(page: number) {
         .range(0, 20)
 }
 
-export async function getRecipe(id: String) {
+export async function getRecipe(slug: String) {
     const supabase = createSupabaseServerClient()
 
     return await supabase.from("recipes")
-        .select("*, ingredients!inner(*), steps!inner(*)")
-        .eq("id", id)
+        .select("*, ingredients!inner(*), users!inner(*), steps!inner(*)")
+        .eq("slug", slug)
         .single()
 }
 
-export async function getRecipeMetadata(id: String) {
+export async function getRecipeMetadata(slug: String) {
     const supabase = createSupabaseServerClient()
 
     return await supabase.from("recipes")
         .select("title, caption, low_image_url")
-        .eq("id", id)
+        .eq("slug", slug)
         .single()
 }
 

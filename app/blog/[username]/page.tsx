@@ -1,7 +1,6 @@
 import MaxWidthWrapper from "@/components/max-width-wrapper";
 import { Badge } from "@/components/ui/badge";
 import { FigmaSquircle } from "@/components/ui/figma-squircle";
-import { Meteors } from "@/components/ui/meteors";
 import { Separator } from "@/components/ui/separator";
 import { createSupabaseServerClient } from "@/lib/supabase/server"
 import { Tables } from "@/lib/supabase/types";
@@ -46,16 +45,10 @@ export async function generateMetadata(
     }
 }
 
-const MarketingCard = () => (
-    <article>
-
-    </article>
-)
-
 const FullCard = ({ username, recipe }: { username: string, recipe?: Tables<"recipes"> }) => (
     <>
         {recipe && <article className="grid md:grid-cols-2 grid-cols-1 gap-4 lg:gap-8 group mt-20">
-                <Link href={`/blog/${username}/${recipe.id}`} className="col-span-1">
+                <Link href={`/recettes/${recipe.slug}`} className="col-span-1">
                     <FigmaSquircle className="w-full h-full relative md:aspect-auto aspect-square flex items-center justify-center">
                         <Image src={recipe.image_url} quality={100} alt={username ?? "Avatar"} width={2000} height={1000} className="object-cover w-full h-full scale-100 group-hover:scale-105 duration-500 object-center absolute" />
                     </FigmaSquircle>
@@ -64,7 +57,7 @@ const FullCard = ({ username, recipe }: { username: string, recipe?: Tables<"rec
                     <Badge variant="secondary" className="w-fit">{(new Date(recipe.created_at)).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</Badge>
                     <header>
                         <h2 className="text-4xl font-serif font-black">
-                            <Link className="group-hover:underline" href={`/blog/${username}/${recipe.id}`}>{recipe.title}</Link>
+                            <Link className="group-hover:underline" href={`/recettes/${recipe.slug}`}>{recipe.title}</Link>
                         </h2>
                     </header>
                     <p className="body-regular text-muted-foreground line-clamp-3">{recipe.caption}</p>
@@ -75,7 +68,7 @@ const FullCard = ({ username, recipe }: { username: string, recipe?: Tables<"rec
 
 const Card = ({ username, recipe }: { username: string, recipe: Tables<"recipes"> }) => (
     <article className="flex flex-col gap-4 group">
-        <Link href={`/blog/${username}/${recipe.id}`} className="bg-muted rounded-3xl">
+        <Link href={`/recettes/${recipe.slug}`} className="bg-muted rounded-3xl">
             <FigmaSquircle className="aspect-square">
                 <Image src={recipe.image_url} quality={100} alt={recipe.title} width={2000} height={1000} className="object-cover w-full h-full scale-100 group-hover:scale-105 duration-500 object-center" />
             </FigmaSquircle>
@@ -84,7 +77,7 @@ const Card = ({ username, recipe }: { username: string, recipe: Tables<"recipes"
             <Badge variant="secondary" className="w-fit">{(new Date(recipe.created_at)).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</Badge>
             <header className="w-full">
                 <h2 className="text-2xl font-serif line-clamp-2 font-black w-full">
-                    <Link className="w-full group-hover:underline block" href={`/blog/${username}/${recipe.id}`}>{recipe.title}</Link>
+                    <Link className="w-full group-hover:underline block" href={`/recettes/${recipe.slug}`}>{recipe.title}</Link>
                 </h2>
             </header>
             <p className="body-regular text-muted-foreground line-clamp-3">{recipe.caption}</p>
