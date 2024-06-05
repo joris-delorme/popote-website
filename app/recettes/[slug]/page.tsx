@@ -1,21 +1,21 @@
+import { ShareButton } from "@/app/blog/[username]/share-button"
 import { FigmaSquircle } from "@/components/ui/figma-squircle"
 import { Separator } from "@/components/ui/separator"
-import { getRecipe, getRecipeMetadata, getUserRecipe } from "@/lib/supabase/actions/getRecipe"
+import { getRecipe, getRecipeMetadata } from "@/lib/supabase/actions/getRecipe"
+import { avatarStorageUrl } from "@/utils/constants"
 import { formatDate } from "@/utils/format-date"
 import { UserCircle2 } from "lucide-react"
 import { Metadata, ResolvingMetadata } from "next"
 import Image from "next/image"
-import { notFound, redirect } from "next/navigation"
-import { avatarStorageUrl } from "@/utils/constants"
-import { ShareButton } from "../share-button"
 import Link from "next/link"
+import { notFound, redirect } from "next/navigation"
 
 export async function generateMetadata(
-    { params }: { params: { id: string } },
+    { params }: { params: { slug: string } },
     parent: ResolvingMetadata
 ): Promise<Metadata> {
 
-    const { data: recipe, error } = await getRecipeMetadata(params.id)
+    const { data: recipe, error } = await getRecipeMetadata(params.slug)
 
     const newParent = await parent
 
@@ -38,29 +38,24 @@ export async function generateMetadata(
     }
 }
 
-export default async function page({ params }: { params: { username: string, id: string } }) {
-
-    const { data: recipe, error } = await getRecipe(params.id)
+export default async function page({ params }: { params: { slug: string } }) {
+    const { data: recipe, error } = await getRecipe(params.slug)
 
     if (error) {
         if (["PGRST116", "22P02"].includes(error.code)) {
             return notFound()
         }
-        console.log(error)
-        //toast.error("Erreur lors de la récupération de la recette.")
-        return redirect("/recipes")
+        return redirect("/recettes")
     }
-
-    const { data: author } = await getUserRecipe(recipe.user_id)
 
     return (
         <>
-            <Link href={`/blog/${params.username}`} className="mb-4 gap-2 flex items-center">
+            <Link href={`/blog/${recipe.users.username}`} className="mb-4 gap-2 flex items-center">
                 <div className="h-[50px] w-[50px]">
-                    {author?.avatar_url ? <Image className="rounded-full object-cover h-full w-full" src={avatarStorageUrl + author.avatar_url} alt={recipe.title} width={50} height={50} /> : <UserCircle2 className="text-muted-foreground w-[50px] h-[50px]" />}
+                    {recipe.users?.avatar_url ? <Image className="rounded-full object-cover h-full w-full" src={avatarStorageUrl + recipe.users.avatar_url} alt={recipe.title} width={50} height={50} /> : <UserCircle2 className="text-muted-foreground w-[50px] h-[50px]" />}
                 </div>
                 <div className="">
-                    <p className="font-semibold" itemProp="author">{author?.username || "Joris Delorme"}</p>
+                    <p className="font-semibold" itemProp="author">{recipe.users?.username || "Joris Delorme"}</p>
                     <p className="text-sm text-muted-foreground" itemProp="datePublished">{formatDate(new Date(recipe.created_at))}</p>
                 </div>
             </Link>

@@ -1,7 +1,3 @@
-import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
 import { ReactNode } from "react";
 import { BackButton } from "./back-button";
 
