@@ -40,7 +40,7 @@ export async function generateMetadata(
         title: user.full_name + " - Blog",
         description: `Blog de cuisine de ${user.full_name}, proposant des recettes faciles et savoureuses.`,
         openGraph: {
-            images: [avatarStorageUrl + user.avatar_url, ...previousImages],
+            images: [avatarStorageUrl + user.avatar_url],
         },
     }
 }
