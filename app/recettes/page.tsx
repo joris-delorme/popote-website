@@ -54,6 +54,7 @@ export default async function page() {
 
     return (
         <MaxWidthWrapper className="mt-60 mb-20">
+        	<h1 className="text-3xl font-serif font-black line-clamp-3 w-full py-10">Les recettes de Popote</h1>
             <div className=""></div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-8 gap-y-16">
                 {recipes?.map((recipe) => <Card key={recipe.id} recipe={recipe} />)}
