@@ -30,8 +30,11 @@ export async function generateMetadata(
     const previousImages = (await parent).openGraph?.images || []
 
     return {
-        title: recipe.title,
-        description: recipe.caption,
+        title: "Recette "+recipe.title,
+        description: "Recette "+recipe.caption,
+		alternates: {
+			canonical: "recettes/"+recipe.slug,
+		},
         openGraph: {
             images: [recipe.low_image_url],
         },

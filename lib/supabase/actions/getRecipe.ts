@@ -31,7 +31,7 @@ export async function getRecipeMetadata(slug: String) {
     const supabase = createSupabaseServerClient()
 
     return await supabase.from("recipes")
-        .select("title, caption, low_image_url")
+        .select("title, caption, low_image_url, slug")
         .eq("slug", slug)
         .single()
 }

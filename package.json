@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate:types": "npx supabase gen types typescript --project-id rmtdjrfumsiymxjnoahb --schema public > lib/supabase/types.ts"
+    "generate:types": "npx supabase gen types typescript --project-id rmtdjrfumsiymxjnoahb --schema public > lib/supabase/types.ts",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
@@ -31,6 +32,7 @@
     "lucide-react": "^0.350.0",
     "next": "14.1.0",
     "next-sanity": "^7.1.4",
+    "next-sitemap": "^4.2.3",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
