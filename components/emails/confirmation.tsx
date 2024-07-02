@@ -25,7 +25,7 @@ export const ConfirmEmail = ({ name, email }: { name: string, email: string }) =
                 <Container className="mx-auto px-4">
                     <Section className=" max-w-md">
                         <Img
-                            src={`https://popote.app/android-chrome-192x192.png`}
+                            src={`https://www.popote.app/android-chrome-192x192.png`}
                             width="64"
                             height="64"
                             alt="Vercel"

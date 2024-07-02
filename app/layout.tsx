@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         canonical: siteConfig.url,
     },
     creator: "joris",
-    metadataBase: new URL('https://popote.app'),
+    metadataBase: new URL('https://www.popote.app'),
     openGraph: {
         type: "website",
         locale: "fr",
