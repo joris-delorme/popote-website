@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+
+	xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
+<!-- created with Scrutiny from https://peacockmedia.software -->
+
+	<url>
+		<loc>https://www.popote.app</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=/assets/hero.png&amp;w=828&amp;q=100</image:loc>
+		<image:title> Hero</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=/assets/hero.png&amp;w=1920&amp;q=100</image:loc>
+		<image:title> Hero</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/assets/noise.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/aubergines-a-la-creme-gratinees</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/AEC0BBEC-74F4-47EB-B5B7-C0C8C0154CE2.jpeg&amp;w=64&amp;q=75</image:loc>
+		<image:title> Aubergines à la crème gratinées</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/AEC0BBEC-74F4-47EB-B5B7-C0C8C0154CE2.jpeg&amp;w=128&amp;q=75</image:loc>
+		<image:title> Aubergines à la crème gratinées</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/aubergines-a-la-parmigianna</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/9E5C1646-3424-425A-A6BD-E04951439AD1.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Aubergines à la Parmigianna</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/9E5C1646-3424-425A-A6BD-E04951439AD1.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Aubergines à la Parmigianna</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/beignet-de-courgettes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/4B466D3A-7A98-4FCB-A8AF-8D65F45A277C.jpeg&amp;w=64&amp;q=75</image:loc>
+		<image:title> Beignet de courgettes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/4B466D3A-7A98-4FCB-A8AF-8D65F45A277C.jpeg&amp;w=128&amp;q=75</image:loc>
+		<image:title> Beignet de courgettes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/54982C48-2AFB-468B-970E-9742B91BFC1A.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Beignet de courgettes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/54982C48-2AFB-468B-970E-9742B91BFC1A.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Beignet de courgettes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/beignets-maison-au-four</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/3CE99089-A00B-42E8-BABE-0C32042C7D62.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Beignets maison au four</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/3CE99089-A00B-42E8-BABE-0C32042C7D62.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Beignets maison au four</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/biscuits-granola-aux-cacahuetes-pepites-de-chocolat-et-banane</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/A46E023F-B033-4BCF-8266-8AB81060E5CD.jpeg&amp;w=64&amp;q=75</image:loc>
+		<image:title> Biscuits Granola aux Cacahuètes, Pépites de Chocolat et Banane</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/A46E023F-B033-4BCF-8266-8AB81060E5CD.jpeg&amp;w=128&amp;q=75</image:loc>
+		<image:title> Biscuits Granola aux Cacahuètes, Pépites de Chocolat et Banane</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/5B83C43C-7761-4EE3-B60A-D9E4F063BAF4.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Biscuits Granola aux Cacahuètes, Pépites de Chocolat et Banane</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/5B83C43C-7761-4EE3-B60A-D9E4F063BAF4.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Biscuits Granola aux Cacahuètes, Pépites de Chocolat et Banane</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/bol-de-banane-aux-noix-et-miel</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/0DC7E626-D5E2-4A4E-BECD-53D16726C3E4.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Bol de Banane aux Noix et Miel</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/0DC7E626-D5E2-4A4E-BECD-53D16726C3E4.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Bol de Banane aux Noix et Miel</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/brochettes-de-poulet-a-la-citronnelle</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A0AEDE05-B827-48D0-91AD-982824B62ADB.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Brochettes de poulet à la citronnelle</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A0AEDE05-B827-48D0-91AD-982824B62ADB.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Brochettes de poulet à la citronnelle</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/brownies-au-chocolat</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/D92A4E38-1DFB-480E-A347-1891766F500A.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Brownies au chocolat</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/D92A4E38-1DFB-480E-A347-1891766F500A.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Brownies au chocolat</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/cake-aux-raisins-secs-de-naf</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/F8838FE1-48ED-487E-AD5E-686F9F22EE04.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Cake aux raisins secs de Naf</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/F8838FE1-48ED-487E-AD5E-686F9F22EE04.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Cake aux raisins secs de Naf</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/cookies-au-chocolat</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/4C7F0953-2496-420E-A8A8-5707DD18FFCE.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Cookies au chocolat</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/4C7F0953-2496-420E-A8A8-5707DD18FFCE.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Cookies au chocolat</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/courgettes-farcies-a-la-feta-et-ciboulette</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/419664CF-363C-4757-B8BF-A6E165709BA2.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Courgettes farcies à la fêta et ciboulette</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/419664CF-363C-4757-B8BF-A6E165709BA2.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Courgettes farcies à la fêta et ciboulette</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/creme-caramel</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/0BC58263-3047-4A09-BB02-5A3C852625D3.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Crème Caramel</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/0BC58263-3047-4A09-BB02-5A3C852625D3.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Crème Caramel</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/crepes-sans-oeufs</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/469CB65E-070A-453E-A268-2CF4EEC27CDA.jpeg&amp;w=64&amp;q=75</image:loc>
+		<image:title> Crêpes sans œufs</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/avatars/469CB65E-070A-453E-A268-2CF4EEC27CDA.jpeg&amp;w=128&amp;q=75</image:loc>
+		<image:title> Crêpes sans œufs</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/981D65FA-AF7C-4904-965F-9B8CF2A91A70.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Crêpes sans œufs</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/981D65FA-AF7C-4904-965F-9B8CF2A91A70.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Crêpes sans œufs</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/croc-mcdo-deluxe</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/0D7DFF58-4103-4766-9013-3EBBBC4FC12C.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Croc McDo Deluxe</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/0D7DFF58-4103-4766-9013-3EBBBC4FC12C.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Croc McDo Deluxe</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/darnes-de-murene-a-la-provencale</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/94477B16-81C3-4733-8D87-6A494ABD6A7B.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Darnes de Murène à la Provençale</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/94477B16-81C3-4733-8D87-6A494ABD6A7B.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Darnes de Murène à la Provençale</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/dorades-grises-entieres-au-citron-et-aux-herbes-fraiches</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/77E2B0DA-3472-425B-B066-26A906375894.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Dorades Grises Entières au Citron et aux Herbes Fraîches</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/77E2B0DA-3472-425B-B066-26A906375894.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Dorades Grises Entières au Citron et aux Herbes Fraîches</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/financiers-aux-amandes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/C696855E-40F3-44CD-A80C-586A800CA7AE.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Financiers aux amandes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/C696855E-40F3-44CD-A80C-586A800CA7AE.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Financiers aux amandes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/frites-au-four-croustillantes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/284A738F-9DAA-40E0-8F13-2549297C09DD.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Frites au four croustillantes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/284A738F-9DAA-40E0-8F13-2549297C09DD.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Frites au four croustillantes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/galettes-de-lentilles-au-mais-sans-oeufs</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/76EB810A-19F5-47C1-837C-A3E6191313D1.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Galettes de Lentilles au Maïs sans Œufs</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/76EB810A-19F5-47C1-837C-A3E6191313D1.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Galettes de Lentilles au Maïs sans Œufs</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/galettes-de-mais</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A848CBC6-7B56-48AE-9413-860B78923E73.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Galettes de Maïs</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A848CBC6-7B56-48AE-9413-860B78923E73.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Galettes de Maïs</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gateau-au-chocolat-avec-une-touche-de-piment</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/B2B77EDD-991C-4E57-833F-78689FD1909F.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gâteau au chocolat avec une touche de piment</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/B2B77EDD-991C-4E57-833F-78689FD1909F.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gâteau au chocolat avec une touche de piment</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gateau-au-chocolat-blanc-sans-levure</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/F69269B9-9B4D-4AF3-BD0A-76021CF597ED.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gâteau au Chocolat Blanc Sans Levure</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/F69269B9-9B4D-4AF3-BD0A-76021CF597ED.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gâteau au Chocolat Blanc Sans Levure</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gateau-au-citron-1</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/912F144E-EBE4-4EDF-9765-A6AF6BF47D01.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gâteau au citron</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/912F144E-EBE4-4EDF-9765-A6AF6BF47D01.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gâteau au citron</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gateau-au-yaourt-avec-sirop-de-citron</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/7B9FD5E7-1175-43C2-9A8E-6CE55AD41884.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gâteau au yaourt avec sirop de citron</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/7B9FD5E7-1175-43C2-9A8E-6CE55AD41884.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gâteau au yaourt avec sirop de citron</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gateau-aux-pepites-de-chocolat</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/3E33465E-3CA7-42BB-9855-DA632478F266.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gâteau aux Pépites de Chocolat</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/3E33465E-3CA7-42BB-9855-DA632478F266.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gâteau aux Pépites de Chocolat</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gateau-sans-yaourt</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/D9A903E1-CB72-4D58-9D19-86F9CDF191EE.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gâteau sans yaourt</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/D9A903E1-CB72-4D58-9D19-86F9CDF191EE.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gâteau sans yaourt</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gaufres-sans-appareil-a-gaufres</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/45DA6331-365A-492F-9DEE-E204433D11D6.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gaufres sans appareil à gaufres</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/45DA6331-365A-492F-9DEE-E204433D11D6.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gaufres sans appareil à gaufres</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gesiers-de-poulet-aux-pates-et-tomates-cerises</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/8775628A-8A6B-47FD-B70B-EA48140B3220.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gésiers de poulet aux pâtes et tomates cerises</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/8775628A-8A6B-47FD-B70B-EA48140B3220.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gésiers de poulet aux pâtes et tomates cerises</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gratin-d-aubergines-aux-lardons-et-mozzarella</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gratin-dauphinois-1</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/7FF9E959-EEA7-4D08-807F-4E7EAF8F427A.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gratin Dauphinois</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/7FF9E959-EEA7-4D08-807F-4E7EAF8F427A.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gratin Dauphinois</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gratin-de-chou-fleur</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/65C1AE0E-67FE-41DD-868B-6C4A9B3D3E72.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gratin de Chou-fleur</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/65C1AE0E-67FE-41DD-868B-6C4A9B3D3E72.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gratin de Chou-fleur</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gratin-de-macaronis</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gratin-de-pates-aux-epinards-petits-pois-et-legumes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/B968F41B-EE7F-43C2-B647-175A4CB294F3.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gratin de pâtes aux épinards, petits pois et légumes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/B968F41B-EE7F-43C2-B647-175A4CB294F3.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gratin de pâtes aux épinards, petits pois et légumes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gratin-de-pates-aux-lardons</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/7FFF7C54-8B0F-4AFA-9E6E-BBF5DCC67301.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gratin de pâtes aux lardons</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/7FFF7C54-8B0F-4AFA-9E6E-BBF5DCC67301.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gratin de pâtes aux lardons</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/gratin-de-pommes-de-terre-et-courgettes-au-steak-hache</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/C1636251-5B3A-48C9-A9BE-4D44F88C67E3.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Gratin de Pommes de Terre et Courgettes au Steak Haché</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/C1636251-5B3A-48C9-A9BE-4D44F88C67E3.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Gratin de Pommes de Terre et Courgettes au Steak Haché</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/ile-flottante</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/7FF82A9E-0EF1-4CA3-A1AC-87C51495C2DD.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Île flottante</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/7FF82A9E-0EF1-4CA3-A1AC-87C51495C2DD.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Île flottante</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/madeleines</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/48CA5ACC-1D49-4260-96F7-55B0170FBFCD.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Madeleines</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/48CA5ACC-1D49-4260-96F7-55B0170FBFCD.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Madeleines</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/magret-de-canard-laque-aux-navets-caramelises-et-coriandre</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/0B5D4237-F0A5-4A98-82BC-6AA775F190F0.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Magret de canard laqué aux navets caramélisés et coriandre</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/0B5D4237-F0A5-4A98-82BC-6AA775F190F0.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Magret de canard laqué aux navets caramélisés et coriandre</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/moussaka</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/DB6E3A23-1302-474D-BC56-F359520A97E3.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Moussaka</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/DB6E3A23-1302-474D-BC56-F359520A97E3.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Moussaka</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/moussaka-sans-vin-rouge</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/31538AC7-04E1-47A0-8A8B-BA1E16146C0E.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Moussaka sans vin rouge</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/31538AC7-04E1-47A0-8A8B-BA1E16146C0E.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Moussaka sans vin rouge</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/nouilles-aux-citrons-confits</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/5CB26509-A570-446B-BF7F-5722E53913AF.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Nouilles aux citrons confits</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/5CB26509-A570-446B-BF7F-5722E53913AF.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Nouilles aux citrons confits</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/omelette-rustique-aux-saucisses-et-tomates</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/CB0AC13B-6D6D-4C8D-A3FA-90F138D77748.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Omelette rustique aux saucisses et tomates</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/CB0AC13B-6D6D-4C8D-A3FA-90F138D77748.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Omelette rustique aux saucisses et tomates</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pain-a-l-ail</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/8D5DCFF8-CBCA-45A2-8178-87749D426F1D.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pain à l'ail</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/8D5DCFF8-CBCA-45A2-8178-87749D426F1D.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pain à l'ail</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/palets-bretons-a-la-vanille</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/DC72014C-C300-47F2-A3A1-B7A4E806E2C6.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Palets bretons à la vanille</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/DC72014C-C300-47F2-A3A1-B7A4E806E2C6.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Palets bretons à la vanille</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pasta-all-amatriciana</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/4ACFDC5E-3357-4057-91CD-A161F84EAD82.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pasta all'amatriciana</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/4ACFDC5E-3357-4057-91CD-A161F84EAD82.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pasta all'amatriciana</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-a-l-avocat-et-oeuf-poche</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/BF76FA98-3415-4CF9-9769-58896A854DC8.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes à l'avocat et œuf poché</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/BF76FA98-3415-4CF9-9769-58896A854DC8.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes à l'avocat et œuf poché</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-a-la-carbonara</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/D499E4F0-67A1-442C-B307-86F74955C19E.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes à la Carbonara</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/D499E4F0-67A1-442C-B307-86F74955C19E.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes à la Carbonara</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-a-la-sauce-tomate-et-jambon-vegetal</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A6B04245-9194-49B0-A8A8-DF61FB516595.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes à la sauce tomate et jambon végétal</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A6B04245-9194-49B0-A8A8-DF61FB516595.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes à la sauce tomate et jambon végétal</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-au-veau-et-au-romarin</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/FD11E2DB-1D62-46BF-A78F-66C25AAF13CE.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes au veau et au romarin</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/FD11E2DB-1D62-46BF-A78F-66C25AAF13CE.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes au veau et au romarin</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-aux-champignons-et-courgettes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/CEE6C42D-5E5D-485B-A57E-C303C8F0BBAB.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes aux champignons et courgettes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/CEE6C42D-5E5D-485B-A57E-C303C8F0BBAB.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes aux champignons et courgettes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-aux-champignons-persil-et-graines-de-tournesol</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/3BDA4F46-287E-4E09-97DE-0EB8A5E2FD8D.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes aux champignons, persil et graines de tournesol</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/3BDA4F46-287E-4E09-97DE-0EB8A5E2FD8D.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes aux champignons, persil et graines de tournesol</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-aux-champignons-persil-et-graines-de-tournesol-4</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/15D0AEBD-63DA-46F3-82EF-C4C7FA1D3058.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes aux champignons, persil et graines de tournesol</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/15D0AEBD-63DA-46F3-82EF-C4C7FA1D3058.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes aux champignons, persil et graines de tournesol</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-aux-legumes-rotis</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A8A8440B-D47F-4F66-89D5-0DF1F1BEE52D.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes aux légumes rôtis</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A8A8440B-D47F-4F66-89D5-0DF1F1BEE52D.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes aux légumes rôtis</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-aux-legumes-verts</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/FE30A9FF-263B-4BAA-BBFE-3ADDE7B9AF66.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes aux légumes verts</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/FE30A9FF-263B-4BAA-BBFE-3ADDE7B9AF66.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes aux légumes verts</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-aux-lentilles</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/75A30CF3-9BC8-4AB7-9AA2-A08DC9CD82D8.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes aux Lentilles</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/75A30CF3-9BC8-4AB7-9AA2-A08DC9CD82D8.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes aux Lentilles</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pates-avec-une-sauce-a-la-courge-butternut</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/3828DAAF-6E87-44F0-B914-5AA02A1CCF28.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pâtes avec une sauce à la courge butternut</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/3828DAAF-6E87-44F0-B914-5AA02A1CCF28.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pâtes avec une sauce à la courge butternut</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/pizza-bien-proteinee</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/BFA26D54-980C-487A-89C0-29D2860A65A3.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Pizza Bien Protéinée</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/BFA26D54-980C-487A-89C0-29D2860A65A3.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Pizza Bien Protéinée</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/poke-bowl-au-saumon-fume-et-mangue</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/poulet-a-la-sauge-avec-puree-de-carottes-et-legumes-sautes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/poulet-au-citron-et-courgettes-roties</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/385A6711-74D2-4D3A-931E-4C3843432E2E.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Poulet au citron et courgettes rôties</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/385A6711-74D2-4D3A-931E-4C3843432E2E.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Poulet au citron et courgettes rôties</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/poulet-au-gombo-et-carottes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/BCA723E4-0225-4B33-BA01-DA8DD0C450C2.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Poulet au gombo et carottes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/BCA723E4-0225-4B33-BA01-DA8DD0C450C2.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Poulet au gombo et carottes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/poulet-farci-au-fromage-de-chevre-et-epinards</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/5F5D67B1-62C4-457E-8F1F-5F8470C12994.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Poulet farci au fromage de chèvre et épinards</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/5F5D67B1-62C4-457E-8F1F-5F8470C12994.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Poulet farci au fromage de chèvre et épinards</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/riz-au-thon-et-tomates</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/F9DF744D-649B-480E-83F6-8E14D2BD727D.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Riz au thon et tomates</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/F9DF744D-649B-480E-83F6-8E14D2BD727D.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Riz au thon et tomates</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/riz-aux-petits-pois-et-carottes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/EC168CA5-9231-45E8-A39E-AEDD59D7512E.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Riz aux petits pois et carottes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/EC168CA5-9231-45E8-A39E-AEDD59D7512E.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Riz aux petits pois et carottes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/riz-saute-au-citron-confit</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/2593036A-66DD-4049-B28A-47DEE40DF5FE.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Riz sauté au citron confit</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/2593036A-66DD-4049-B28A-47DEE40DF5FE.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Riz sauté au citron confit</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/salade-d-epinards-et-de-saumon</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/EEA0B713-0A39-4D20-A174-90BE6CC0CF1A.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Salade d'épinards et de saumon</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/EEA0B713-0A39-4D20-A174-90BE6CC0CF1A.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Salade d'épinards et de saumon</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/salade-d-ete</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A7695A3E-72A1-4E49-A040-689EBDA9FE90.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Salade d’été</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A7695A3E-72A1-4E49-A040-689EBDA9FE90.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Salade d’été</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/salade-de-pates-a-l-avocat</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/salade-de-poulet-epicee-aux-pois-chiches-et-menthe</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/2FEBFE7C-BCFB-439E-8F63-769ECFA40D6A.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Salade de poulet épicée aux pois chiches et menthe</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/2FEBFE7C-BCFB-439E-8F63-769ECFA40D6A.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Salade de poulet épicée aux pois chiches et menthe</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/sandwich-facon-kebab-a-la-mortadelle-et-sauce-pistache</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/DED4AD72-7830-45DD-A8B8-965DF9A23C1D.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Sandwich façon kebab à la mortadelle et sauce pistache</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/DED4AD72-7830-45DD-A8B8-965DF9A23C1D.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Sandwich façon kebab à la mortadelle et sauce pistache</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/sauce-aux-herbes-fraiches-pour-pates</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/474DD746-7270-455F-A662-72AF67AECE52.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Sauce aux herbes fraîches pour pâtes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/474DD746-7270-455F-A662-72AF67AECE52.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Sauce aux herbes fraîches pour pâtes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/sauce-pour-pates-a-la-tomate-et-steak</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/B75E53B1-043D-44BC-A615-D51F9E381ADB.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Sauce pour pâtes à la tomate et steak</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/B75E53B1-043D-44BC-A615-D51F9E381ADB.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Sauce pour pâtes à la tomate et steak</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/sauce-pour-spaghettis-originale</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A9D24B03-4A96-428D-BA66-61EA50C349C5.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Sauce pour Spaghettis Originale</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A9D24B03-4A96-428D-BA66-61EA50C349C5.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Sauce pour Spaghettis Originale</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/sauce-vierge</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/C12EF3A0-6344-45AF-BC83-E1E055DE2CB4.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Sauce Vierge</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/C12EF3A0-6344-45AF-BC83-E1E055DE2CB4.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Sauce Vierge</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/smash-burger-avec-pain-pita-maison</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/74908178-2F66-4B06-BF9F-B2CDB9370CCC.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Smash Burger</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/74908178-2F66-4B06-BF9F-B2CDB9370CCC.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Smash Burger</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/spaghetti-carbonara-vegetarienne</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/96FC9F6F-671B-453B-86CB-42DB3FC1D4E7.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Spaghetti Carbonara Végétarienne</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/96FC9F6F-671B-453B-86CB-42DB3FC1D4E7.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Spaghetti Carbonara Végétarienne</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/steak-vegan-aux-haricots-noirs-et-courgette</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/CC1A1A95-5C14-418A-BDD3-7C713CE4283C.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Steak Vegan aux Haricots Noirs et Courgette</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/CC1A1A95-5C14-418A-BDD3-7C713CE4283C.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Steak Vegan aux Haricots Noirs et Courgette</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/steak-vegan-aux-lentilles-et-quinoa</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/15394D83-CB74-4A27-964B-ACB50044065C.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Steak Vegan aux Lentilles et Quinoa</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/15394D83-CB74-4A27-964B-ACB50044065C.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Steak Vegan aux Lentilles et Quinoa</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/super-pates-a-la-carbonara</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/D196BCE0-F064-48FB-A06B-6C0DB3E6A502.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Super Pâtes à la Carbonara</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/D196BCE0-F064-48FB-A06B-6C0DB3E6A502.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Super Pâtes à la Carbonara</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/taboule-de-chou-fleur-epice-aux-graines-de-chia</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/E714CDCC-7BF4-401A-A34E-87BA4A97E635.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Taboulé de chou-fleur épicé aux graines de chia</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/E714CDCC-7BF4-401A-A34E-87BA4A97E635.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Taboulé de chou-fleur épicé aux graines de chia</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/tartare-de-boeuf</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A82E43F6-8E44-4541-8267-E687A32D8539.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Tartare de bœuf</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/A82E43F6-8E44-4541-8267-E687A32D8539.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Tartare de bœuf</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/tarte-a-l-abricot</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/E9C48293-C011-4906-A2CD-88E80119B8D8.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Tarte à l’abricot</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/E9C48293-C011-4906-A2CD-88E80119B8D8.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Tarte à l’abricot</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/tarte-aux-epinards-au-yaourt-grec</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/53D4DE46-AFB8-4EF1-B58B-5F6E89385202.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Tarte aux épinards au yaourt grec</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/53D4DE46-AFB8-4EF1-B58B-5F6E89385202.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Tarte aux épinards au yaourt grec</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/tarte-aux-poireaux-et-lardons</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/9F24C430-2873-4AE6-9979-D3D9A78CC570.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Tarte aux poireaux et lardons</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/9F24C430-2873-4AE6-9979-D3D9A78CC570.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Tarte aux poireaux et lardons</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/tarte-aux-pommes</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/F62C71DB-2235-4D1B-B5D8-B6A28E94F180.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Tarte aux pommes</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/F62C71DB-2235-4D1B-B5D8-B6A28E94F180.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Tarte aux pommes</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.popote.app/recettes/tarte-tatin</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/DD9A9553-7182-4447-AE84-6CE4C1BD74A5.png&amp;w=640&amp;q=75</image:loc>
+		<image:title> Tarte Tatin</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.popote.app/_next/image?url=https://rmtdjrfumsiymxjnoahb.supabase.co/storage/v1/object/public/users_recipes/full/DD9A9553-7182-4447-AE84-6CE4C1BD74A5.png&amp;w=828&amp;q=75</image:loc>
+		<image:title> Tarte Tatin</image:title>
+		</image:image>
+	</url>
+
+</urlset>
